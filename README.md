@@ -1,6 +1,10 @@
-# React Aport
+# React Aport &middot; [![npm](https://img.shields.io/npm/v/react-aport)](https://www.npmjs.com/package/react-aport)
 
 Simple library for data fetching with `<Suspense>` in React.
+
+## Links
+
+ - [Demo](https://codesandbox.io/s/dank-hill-rsn3l1?file=/src/App.tsx)
 
 ## Example usage
 

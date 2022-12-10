@@ -1,6 +1,6 @@
 {
   "name": "react-aport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple library for fetching data with Suspense in React",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

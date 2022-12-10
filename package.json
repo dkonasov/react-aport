@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "test": "jest",
-    "test:e2e": "jest --config ./jest.e2e.config.js"
+    "test:e2e": "jest --config ./jest.e2e.config.js",
+    "build": "webpack && tsc -p ./tsconfig.build.json"
   },
   "author": "Konasov Dmitriy <d.konasov@yandex.ru>",
   "license": "MIT",

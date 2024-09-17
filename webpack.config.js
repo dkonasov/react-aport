@@ -1,6 +1,6 @@
 const path = require("path");
 
-const config = {
+const base = {
   entry: {index: "./src/index.ts"},
   experiments: {
     outputModule: true,
@@ -28,4 +28,7 @@ const config = {
   },
 };
 
-module.exports = config;
+const esmOutput = {...base.output, library: {type: 'module'}, filename: 'index.mjs'};
+const esmConfig = {...base, output: esmOutput};
+
+module.exports = [base, esmConfig];
